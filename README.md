@@ -13,8 +13,11 @@ The aim of your work is to create a model based on the data from 100 patients th
 Plan:
 
 We will conduct an adequate preprocessing, noting that many of the features don’t contain any information about the class label. For this reason, we will use a suitable method for feature reduction/selection. To this aim, we will compare the following methods:
+
 • backwards elimination of features via alternating the training of a classifier and the deletion of the least important features
+
 • dimensionality reduction using principal component analysis before training the classifier.
+
 We will identify and implement a suitable learning method in Python, training and evaluating the model to predict cancer. 
 
 ---------------------------------------------
